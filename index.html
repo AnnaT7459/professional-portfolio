@@ -1,17 +1,100 @@
-<!-- added basic HTML semantic layout -->
+<!-- used the ctrl + ? to start HTML code and updated semantics -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- added descriptive, concise title -->
-    <title>Anna Turner's Professional Portfolio</title>
+    <meta charset="UTF-8" />
+    <!-- linked CSS -->
+    <link rel="stylesheet" href="./assets/style.css"> 
+    <!-- titled website for search engine optimization -->
+    <title>Anna Turner's Profession Portfolio</title>
 </head>
 <body>
-    <main>
-        
-        
+    <header class="header">
+        <!--added name for the first heading -->
+        <h1>Anna E Turner</h1>
+        <nav>
+            <!-- added links to sections about me, my work, contact information, and resume -->
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">My Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#resume">My Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <img class="cover"/>
+    <main class="content">
+        <section id="about-me" class="section-main">
+            <!-- added links to About Me which includes a headshot of me -->
+            <img src="assets/images/IMG_7761.JPG" alt="Anna sitting on a couch with a coffee cup smiling and looking to her right. She is wearing an orange tank top, a oversized cream knitted sweater, and jeans" class="float-left" />
+            <h2>About Me</h2>
+            <p>
+                I graduated from Northwest Missouri State University in 2015 with a bachelor's and master's in education. I am in my 6th year of teaching. I decided I was ready for a career change and I am currently enrolled in the EdX Coding Boot Camp through the University of Kansas. I am highly motivated to learn more about web development, have a positive growth mindset attitude, and I'm eager to be a valuable asset to your team!
+            </p>
+        </section>
+        <section id="projects" class="section-main">
+            <!-- added links to Work which includes screenshots from each project -->
+            <h2>My Projects</h2>
+            <nav>
+                <ul>
+                    <li>
+                    <a href="prework-study-guide"><h3>Prework Study Guide</h3></a>
+                        <img src="./assets/images/preworkstudyguideicon.png" alt="cat with a bowtie" class="float-left"/>
+                    </li>
+                    <li><a href="student-mini-challenge-1"><h3>Student Mini Challenge 1</h3><h4>Coming Soon Webpage</h4></a> 
+                        <img src="./assets/images/Screenshot 2023-09-24 133210.png" alt="brown box with pink and green borders including text saying 'Coming Soon' and above box saying 'My New Website" class="float"/>
+                    </li>
+                </ul>
+            </nav>
+            
+        </section>
+        <section id="social-media-marketing" class="section-main">
+            <img src="./assets/images/social-media-marketing.jpg" alt="aerial view of table with group on computer with clip art of social media jargon and icons" class="float-left" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </section>
     </main>
-    
+    <aside class="benefits">
+        <!-- changed benefit class names to section-benefits to consolidate css-->
+        <section class="section-benefits">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt="clip art of gear funneling into money"/>
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </section>
+        <section class="section-benefits">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" alt="clip art of person with a turned on lightbulb as head"/>
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </section>
+        <section class="section-benefits">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt="clip art of a gear turning money"></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </section>
+    </aside>
+    <footer class="footer">
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <p>
+            &copy; 2023 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
 </body>
+
 </html>
