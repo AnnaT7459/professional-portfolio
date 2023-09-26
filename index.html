@@ -1,62 +1,68 @@
-<!-- used the ctrl + ? to start HTML code and updated semantics -->
+<!-- used the ctrl + ! to start HTML code and updated semantics -->
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <meta charset="UTF-8" />
     <!-- linked CSS -->
     <link rel="stylesheet" href="./assets/style.css"> 
     <!-- titled website for search engine optimization -->
-    <title>Anna Turner's Profession Portfolio</title>
+    <title>Anna Turner's Professional Portfolio</title>
 </head>
-<body>
-    <header class="header">
-        <!--added name for the first heading -->
-        <h1>Anna E Turner</h1>
-        <nav>
-            <!-- added links to sections about me, my projects, contact information, and resume -->
-            <ul>
-                <a href="#about-me">About Me</a>
-                <a href="#projects">My Projects</a>
-                <a href="#contact-me">Contact Information</a>
-                <a href="#resume">My Resume</a>
-            </ul>
-        </nav>
-    </header>
+    <body>
+        <header class="header">
+            <!--added name for the first heading -->
+            <h1>Anna E Turner</h1>
+                <nav>
+                <!-- added links to sections about me, my projects, contact information, and resume -->
+                    <ul class="nav-links">
+                        <a href="#about-me">About Me</a>
+                        <a href="#projects">My Projects</a>
+                        <a href="#contact-me">Contact Information</a>
+                        <a href="#resume">My Resume</a>
+                    </ul>
+                </nav>
+        </header>
     <img class="cover"/>
     <main class="content">
-        <section id="about-me" class="section-main">
+        <!-- renamed and added classes -->
+        <section id="about" class="section-me">
             <!-- added links to About Me which includes a headshot of me -->
-            <img src="assets/images/IMG_7761.JPG" alt="Anna sitting on a couch with a coffee cup smiling and looking to her right. She is blonde and wearing an orange tank top, an oversized cream knitted sweater, and jeans" class="float-left" />
+            <img src="assets/images/IMG_7761.JPG" alt="Anna Turner sitting on a couch with a coffee cup smiling and looking to her right. She is blonde and wearing an orange tank top, an oversized cream knitted sweater, and jeans" class="my-pic" />
             <h2>About Me</h2>
                 <p>
-                    I graduated from Northwest Missouri State University with my bachelor's and master's in science of education. I am in my 6th year of teaching. I decided I was ready for a career change and I am currently enrolled in the EdX Coding Boot Camp through the University of Kansas. I am highly motivated to learn more about web development, have a positive growth mindset attitude, and I'm eager to be a valuable asset to your team!
+                    My name is Anna Turner. I graduated from Northwest Missouri State University with my bachelor's and master's in science of education. I am in my 6th year of teaching. I decided I was ready for a career change and I am currently enrolled in the EdX Coding Boot Camp through the University of Kansas. I am highly motivated to learn more about web development, have a positive growth mindset attitude, and I'm eager to be a valuable asset to your team!
                 </p>
         </section>
-        <section id="projects" class="section-main">
+        <section id="projects" class="section-work">
             <!-- added links to my projects which includes screenshots from each project -->
             <!-- made images clickable to deployed websites-->
             <!-- cleaned up html semantics -->
             <h2>My Projects</h2>
-                <ul>
-                    <h3>Prework Study Guide</h3>
-                        <a href="https://annat7459.github.io/prework-study-guide/"><img src="./assets/images/preworkstudyguideicon.png" alt="cat with a bowtie" class="float-left"></a>
-                    <h3>Student Mini Challenge 1</h3>
-                        <h4>Coming Soon!</h4>
-                            <a href="https://www.google.com/"><img src="./assets/images/smp-1.png" alt="brown box with pink and green borders including text saying 'Coming Soon' and above box saying 'My New Website'" class="float"></a>
-                    <h3>Code Refactor</h3>
-                        <a href="https://annat7459.github.io/code-refactor/"><img src="./assets/images/mc1code-refactor.png" alt="screenshot of Horiseon Social Media Marketing webpage that includes a photo of professional meeting where a small group of people are collaborating" class="float"></a>
-                    <h3>Student Mini Challenge 2</h3>
-                        <h4>Coming Soon!</h4>
-                            <a href="https://www.google.com/"><img src="./assets/images/smp-2.png" alt="screenshot of CSS Snippet Cheatsheet webpage with purple and white text and a dark black and grey background. The cheatsheet includes flexbox rows and columns, CSS grid layout, linear gradients, box transition glow, and overlay card tips" class="float"></a>
-                </ul>   
+            <article class="card-pwsg">
+                <h3>Prework Study Guide</h3>
+                        <a href="https://annat7459.github.io/prework-study-guide/"><img src="./assets/images/preworkstudyguideicon.png" alt="cat with a bowtie" class="study-pic"></a>
+            </article>
+            <article>
+                <h3>Student Mini Challenge 1</h3>
+                    <h4>Coming Soon!</h4>
+                        <a href="https://www.google.com/"><img src="./assets/images/smp-1.png" alt="brown box with pink and green borders including text saying 'Coming Soon' and above box saying 'My New Website'" class="ss-new-web"></a>
+            </article>
+            <article>
+                <h3>Code Refactor</h3>
+                    <a href="https://annat7459.github.io/code-refactor/"><img src="./assets/images/mc1code-refactor.png" alt="screenshot of Horiseon Social Media Marketing webpage that includes a photo of professional meeting where a small group of people are collaborating" class="ss-horiseon"></a>
+            </article>
+            <article>
+                <h3>Student Mini Challenge 2</h3>
+                    <h4>Coming Soon!</h4>
+                        <a href="https://www.google.com/"><img src="./assets/images/smp-2.png" alt="screenshot of CSS Snippet Cheatsheet webpage with purple and white text and a dark black and grey background. The cheatsheet includes flexbox rows and columns, CSS grid layout, linear gradients, box transition glow, and overlay card tips" class="ss-chsht"></a>
+            </article>   
         </section>
-        <section id="contact-me" class="section-main">
+        <section id="contact-me" class="section-contact">
             <!-- added links and list of contact information -->
             <!-- updated semantics to have links side by side instead of in a bulleted list -->
             <h2>Contact Information</h2>
                 <ul>
-                    <a>660.232.0978</a>
+                    <a>Phone: 660.232.0978</a>
                     <a href="https:annaeturner259@gmail.com">Email</a>
                     <a href="https://github.com/AnnaT7459">GitHub</a>
                     <a href="https://www.linkedin.com/in/anna-turner-09839a228/">LinkedIn</a>
@@ -69,7 +75,7 @@
         </section>
     </main>
     <footer class="footer">
+        <p>Thanks for Viewing!</p>
     </footer>
 </body>
-
 </html>
