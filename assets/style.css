@@ -44,9 +44,13 @@ color: var(--tan);
   justify-content: left;
 }
 
-h2 {
+h3 {
 text-align: center;
-color: var(--burntOrange);
+color: var(--tan);
+}
+
+h4 {
+  text-align: center;
 }
 
 p {
@@ -56,7 +60,7 @@ color: var(--gray);
 
 #projects {
   flex-direction: column;
-  border-style:solid;
+  border-style: dotted;
   border-width: 15px;
   color: var(--burntOrange);
 }
@@ -88,14 +92,19 @@ ul {
 }
 
 #contact-me {
+  text-align: center;
   flex-direction: column;
   border-style:solid;
   border-width: 15px;
   color: var(--tan);
 }
 
-h3 {
-
+h6 {
+  text-align: center;
+  flex-direction: column;
+  border-style: dotted;
+  border-width: 15px;
+  color: var(--burntOrange);
 }
 
 
