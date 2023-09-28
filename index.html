@@ -16,7 +16,7 @@
                 <!-- added links to sections about me, my projects, contact information, and resume -->
                 <!-- added alternative descriptions for links -->
                     <ul class="nav-links">
-                        <a href="#about-me" alt="link to about me section">About Me</a>
+                        <a href="#about" alt="link to about me section">About Me</a>
                         <a href="#projects" alt="link to my work">My Projects</a>
                         <a href="#contact-me" alt="link to contact me">Contact Information</a>
                         <a href="#resume" alt="link to resume pdf">My Resume</a>
@@ -25,7 +25,7 @@
         </header>
         <section id="about">
             <!-- added links to About Me which includes a headshot of me -->
-            <img src="./assets/images/IMG_7761.JPG" alt="Anna Turner sitting on a couch with a coffee cup smiling and looking to her right. She is blonde and wearing an orange tank top, an oversized cream knitted sweater, and jeans" class="my-pic"></img>
+            <img src="./assets/images/IMG_7761.JPG" alt="Anna Turner sitting on a couch with a coffee cup smiling and looking to her right. She is blonde and wearing an orange tank top, an oversized cream knitted sweater, and jeans" class="img-me"></img>
             <h2>About Me</h2>
                 <p>
                     My name is Anna Turner. I graduated from Northwest Missouri State University with my bachelor's and master's in science of education. I am in my 6th year of teaching. I decided I was ready for a career change and I am currently enrolled in the EdX Coding Boot Camp through the University of Kansas. I am highly motivated to learn more about web development, have a positive growth mindset attitude, and I'm eager to be a valuable asset to your team!
@@ -36,32 +36,25 @@
             <!-- made images clickable to deployed websites-->
             <!-- cleaned up html semantics -->
             <!-- reworked semantics to have 1 main project and 3 smaller projects listed -->
-            <h1>My Projects</h1>
-            <article class="first-project"><a href="https://annat7459.github.io/prework-study-guide/" alt="link to prework-study-guide"><img src="./assets/images/preworkstudyguideicon.png" alt="cat with a bowtie">Prework Study Guide</a></article>
-            <ul class="other-projects">
-                <li><a href="https://www.google.com/" alt="placeholder link to Google"><img src="./assets/images/smp-1.png" alt="brown box with pink and green borders including text saying 'Coming Soon' and above box saying 'My New Website'" class="ss-new-web">Student Mini Challenge 1 - Coming Soon!</a></li>
-                <li><a href="https://annat7459.github.io/code-refactor/" alt="link to Horiseon Social Solution Services, Inc. webpage"><img src="./assets/images/mc1code-refactor.png" alt="screenshot of Horiseon Social Media Marketing webpage that includes a photo of professional meeting where a small group of people are collaborating" class="ss-horiseon">Code Refactor</a></li>
-                <li><a href="https://www.google.com/" alt="placeholder link to Google"><img src="./assets/images/smp-2.png" alt="screenshot of CSS Snippet Cheatsheet webpage with purple and white text and a dark black and grey background. The cheatsheet includes flexbox rows and columns, CSS grid layout, linear gradients, box transition glow, and overlay card tips" class="ss-chsht">Student Mini Challenge 2 - Coming Soon!</a></li>
+            <h2>My Projects</h2>
+            <article class="firstProject"><a href="https://annat7459.github.io/prework-study-guide/" alt="link to prework-study-guide"><img src="./assets/images/preworkstudyguideicon.png" alt="cat with a bowtie" class="img-fp">Prework Study Guide</a></article>
+            <ul class="otherProjects">
+                <a href="https://www.google.com/" alt="placeholder link to Google"><img src="./assets/images/smp-1.png" alt="brown box with pink and green borders including text saying 'Coming Soon' and above box saying 'My New Website'" class="img-project">Student Mini Challenge 1 - Coming Soon!</a>
+                <a href="https://annat7459.github.io/code-refactor/" alt="link to Horiseon Social Solution Services, Inc. webpage"><img src="./assets/images/mc1code-refactor.png" alt="screenshot of Horiseon Social Media Marketing webpage that includes a photo of professional meeting where a small group of people are collaborating" class="img-project">Code Refactor</a>
+                <a href="https://www.google.com/" alt="placeholder link to Google"><img src="./assets/images/smp-2.png" alt="screenshot of CSS Snippet Cheatsheet webpage with purple and white text and a dark black and grey background. The cheatsheet includes flexbox rows and columns, CSS grid layout, linear gradients, box transition glow, and overlay card tips" class="img-project">Student Mini Challenge 2 - Coming Soon!</a>
             </ul>
-        <section id="contact-me" class="section-contact">
+        </section>
+    </body>
+    <!-- changed the list of contact information from a section to the footer -->
+    <footer>
+        <ul id="contact-me">
+            <a href="tel:1-660-232-0978" alt="660-232-0978"> Phone: 660.232.0978</a>
+            <a href="mailto:annaeturner259@gmail.com" alt="link to annaeturner259@gmail.com">Email Me</a>
+            <a href="https://github.com/AnnaT7459" alt="link to Anna's GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/anna-turner-09839a228/" alt="link to Anna's LinkedIn">LinkedIn</a>
+        </ul>
+        <h3 id="resume"><a href="./assets/images/Turner Resume 2022.pdf" alt="link to view Anna's resume">Resume</a></h3>
+    </footer>
             <!-- added links and list of contact information -->
             <!-- updated semantics to have links side by side instead of in a bulleted list -->
-            <h2>Contact Information</h2>
-                <ul>
-                    <a>Phone: 660.232.0978</a>
-                    <a href="https:annaeturner259@gmail.com">Email</a>
-                    <a href="https://github.com/AnnaT7459">GitHub</a>
-                    <a href="https://www.linkedin.com/in/anna-turner-09839a228/">LinkedIn</a>
-                </ul>
-        </section>
-        <!-- linked PDF to My Resume Section  -->
-        <section id="resume" class="section-main">
-            <h2>My Resume</h2>
-                <a href="assets/images/Turner Resume 2022.pdf">PDF</a>
-        </section>
-    </main>
-    <footer class="footer">
-        <p>Thanks for Viewing!</p>
-    </footer>
-</body>
 </html>

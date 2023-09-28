@@ -6,6 +6,89 @@
   --tan: #bf9174;
   --burntOrange: #b76526;
 }
+/* added all ids, classes, and elements */
+* {
+  max-width: max-content;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+
+}
+
+h1 {
+
+}
+
+nav {
+
+}
+
+ul {
+
+}
+
+.nav-links {
+
+}
+
+#about {
+
+}
+
+.img-me {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+#projects {
+
+}
+
+.firstProject {
+
+}
+
+.img-fp {
+
+}
+
+.otherProjects {
+
+}
+
+.img-project {
+
+}
+
+footer {
+
+}
+
+ul {
+
+}
+
+#contact-me {
+
+}
+
+h3 {
+
+}
+
+
+
+
 
 
 
