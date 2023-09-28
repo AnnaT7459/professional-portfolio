@@ -4,54 +4,61 @@
   --gray: #b5bbbe;
   --darkBrown: #402f21;
   --tan: #bf9174;
-  --burntOrange: #b76526;
+  --burntOrange: #b76526; 
 }
 /* added all ids, classes, and elements */
 * {
-  max-width: max-content;
+  background-color: var(--darkBrown);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
-
+/* started adding borders, colors, font and image sizes, and alignment */
 header {
-
+  border-style: dotted;
+  border-width: 25px;
+  padding: 10px;
+  border-color: var(--burntOrange)
 }
 
 h1 {
-
+  text-align:center;
+  font-size: 50px;
+  color: var(--tan);
 }
 
-nav {
-
-}
-
-ul {
-
-}
-
-.nav-links {
-
+.nav-links a {
+text-align: center;
+color: var(--gray);
 }
 
 #about {
-
+flex-direction: column;
+border-style:solid;
+border-width: 15px;
+color: var(--tan);
 }
 
 .img-me {
-
+  height: 400px;
+  width: 300px;
+  justify-content: left;
 }
 
 h2 {
-
+text-align: center;
+color: var(--burntOrange);
 }
 
 p {
-
+text-align:start; 
+color: var(--gray);
 }
 
 #projects {
-
+  flex-direction: column;
+  border-style:solid;
+  border-width: 15px;
+  color: var(--burntOrange);
 }
 
 .firstProject {
@@ -59,7 +66,8 @@ p {
 }
 
 .img-fp {
-
+height: 250px;
+width: 250px;
 }
 
 .otherProjects {
@@ -67,7 +75,8 @@ p {
 }
 
 .img-project {
-
+height: 100px;
+width:100px;
 }
 
 footer {
@@ -79,7 +88,10 @@ ul {
 }
 
 #contact-me {
-
+  flex-direction: column;
+  border-style:solid;
+  border-width: 15px;
+  color: var(--tan);
 }
 
 h3 {
