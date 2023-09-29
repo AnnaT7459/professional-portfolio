@@ -26,31 +26,44 @@ h1 {
   color: var(--tan);
 }
 
+ul {
+  text-align: center;
+  justify-content: space-between;
+}
 .nav-links a {
 text-align: center;
+gap: 5px;
 color: var(--gray);
 }
 
 #about {
-flex-direction: column;
+display: flex;
+/* flex-direction: column; */
 border-style:solid;
 border-width: 15px;
 color: var(--tan);
 }
 
+.image-wrapper {
+display: flex;
+width: 40%;
+justify-content: center;
+align-items: center;
+}
+
 .img-me {
   height: 400px;
   width: 300px;
-  justify-content: left;
+  /* justify-content: left; */
 }
 
-h3 {
+.aboutMeText {
+
+}
+
+h2 {
 text-align: center;
 color: var(--tan);
-}
-
-h4 {
-  text-align: center;
 }
 
 p {
@@ -59,7 +72,7 @@ color: var(--gray);
 }
 
 #projects {
-  flex-direction: column;
+  display: flex;
   border-style: dotted;
   border-width: 15px;
   color: var(--burntOrange);
@@ -92,8 +105,8 @@ ul {
 }
 
 #contact-me {
+  display: flex;
   text-align: center;
-  flex-direction: column;
   border-style:solid;
   border-width: 15px;
   color: var(--tan);
