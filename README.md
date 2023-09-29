@@ -6,10 +6,14 @@ I created this project because I want potential employers to view my portfolio o
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![alt text](./assets/images/Screenshot%202023-09-28%20214755.png)
+![alt text](./assets/images/Screenshot%202023-09-28%20214857.png)
 
 ## Deployed Website Link
+
+https://annat7459.github.io/professional-portfolio/
+
+## References
+
+W3Schools
+Digital Ocean CSS Tricks Guide to Flexbox
